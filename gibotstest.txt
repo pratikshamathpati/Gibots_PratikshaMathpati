@@ -1,0 +1,28 @@
+Name:Pratiksha Madhukar Mathpati  ContactNo:8177922690
+Email id:pratiksha1997mathpati@gmail.com
+
+<script type="text/javascript">
+	var employees = [{ firstName:'Ajinkya', age:25}, { firstName:'Krishna', age:23}, { firstName:'Ananta', age:28 }, { firstName:'Pruthvi', age:24}];
+
+	employees.sort(function(a, b) {
+	return a.age - b.age;
+});
+console.log(employees);
+</script>
+
+
+
+class Test{
+   public static void main(String args[]){
+      int[] marks= {80, 90, 100, 120};
+      int sum = 0;
+      for( int num : marks) {
+          sum = sum+num;
+      }
+      System.out.println("Sum of marks:"+sum);
+   }
+}
+
+
+
+
